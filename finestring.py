@@ -1,18 +1,18 @@
 def finestring(input_str, input_symbol, input_pos, input_length):
     ''' 
-        #Функция предназначена для красивого вывода строки с символами с возможностью... 
-        #...расположение по центру, слева и справа
+        #The function is designed to beautifully display a string with characters with the ability to...
+         #...centered, left and right
         
-        #finestring("Ваша строка", "Символ", "Позиция", Длина строки)
-        #
-        #"Ваша строка" - string
-        #"Символ" - char/string. Например: "*" |
-        #"Позиция" - "^" -> центрировать, ">" -> символы с права, "<" -> символы слева
-        #Длина строки - длина string/строки для вывода
+        #finestring("Your string", "Symbol", "Position", String length)
+        
+        #"Your string" - your text
+        #"Symbol" - char/string. For example: "*" |
+        #"Position" - "^" -> centering, ">" -> symbols from the right, "<" -> symbols on the left
+        #String length - the length of the string to be output
 
-        #Пример: 
-        #Ввод: finestring("Jessica", "_", "^", 15)
-        #Вывод____Jessica_____
+        #Example: 
+        #Input: finestring("Jessica", "_", "^", 15)
+        #Output: ____Jessica_____
     '''
     length = input_length
     if(len(input_str) % 2):
